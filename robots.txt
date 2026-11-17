@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fantocaa.github.io/sitemap.xml
