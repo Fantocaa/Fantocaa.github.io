@@ -16,4 +16,4 @@ Laravel mengelola data lowongan dan lamaran; Inertia menghubungkannya dengan hal
 
 Kandidat dapat bergerak dari daftar lowongan ke formulir lamarannya, atau memilih jalur CV umum bila belum ada posisi khusus yang dituju.
 
-Ini proyek privat `career_tako`. Data kandidat dan kode sumber tidak dipublikasikan di sini. [Diskusikan proyek serupa](mailto:fantocaa17@gmail.com).
+[Kunjungi portal karier](https://karier.tako.co.id/). Proyek privat ini di-host sendiri pada server pribadi perusahaan. Data kandidat dan kode sumber tidak dipublikasikan di sini. [Diskusikan proyek serupa](mailto:fantocaa17@gmail.com).

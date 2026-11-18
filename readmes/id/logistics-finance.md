@@ -1,19 +1,19 @@
-# Ruang Kerja Logistik & Keuangan
+# Sistem Trading & Keuangan Multi-Tenant
 
-Bagi tim operasional, menerbitkan faktur baru awal dari proses. Pembayaran bisa datang belakangan atau perlu dikoreksi, masih ada piutang dan utang yang harus dipantau, dan seluruh aktivitas itu harus masuk akal saat dibaca dalam laporan kas dan bank. Aplikasi ini menghubungkan langkah-langkah tersebut.
+Sistem multi-tenant untuk mengelola operasional trading dan aktivitas keuangan, mulai dari transaksi sehari-hari hingga laporan neraca dan laba rugi.
 
-## Masalah utamanya
+## Pekerjaan yang dilakukan
 
-Daftar transaksi saja belum menjawab apa yang sudah dibayar, apa yang masih tertunggak, dan bagaimana sebuah koreksi mengubah saldo. Laporan juga harus tetap dapat dipahami ketika staf mengganti rentang tanggal atau memilih akun kas dan bank yang berbeda.
+Sistem ini menghubungkan operasional trading dengan pengelolaan keuangan. Saya mengerjakan perhitungan pembayaran faktur, piutang dan utang, koreksi pelunasan, serta laporan kas dan bank. Laporan mencakup saldo awal dan saldo berjalan, filter tanggal dan akun, serta ekspor PDF atau spreadsheet.
 
-## Cara saya menyelesaikannya
+Aplikasi menggunakan Laravel, React, dan TypeScript. Model multi-tenant mendukung penggunaan oleh beberapa organisasi.
 
-Saya mengerjakan perhitungan pembayaran faktur, piutang dan utang, serta koreksi pelunasan bersama tampilan laporannya. Laporan kas dan bank membawa saldo awal, dapat difilter menurut tanggal dan akun, lalu memperlihatkan saldo berjalan. Hasilnya bisa diekspor ke PDF atau spreadsheet untuk ditinjau di luar aplikasi.
+## Tampilan dashboard
 
-Laravel menangani transaksi dan logika laporan; React dan TypeScript menyediakan ruang kerja untuk memasukkan dan memeriksa data. Hubungan antara tindakan operasional dan angka dalam laporan menjadi perhatian utama di sini.
+![Dashboard trading dan keuangan yang menampilkan laba, nilai persediaan, piutang, utang, saldo kas dan bank, serta tren penjualan dan pembelian](/assets/projects/trading-finance-dashboard.jpg)
 
-## Hasil yang dibangun
+Dashboard menyatukan ringkasan keuangan, nilai persediaan, serta tren penjualan dan pembelian dalam satu tampilan.
 
-Staf dapat meninjau aktivitas keuangan dari beberapa tahap: apa yang ditagihkan, apa yang sudah dilunasi, dan bagaimana transaksi tersebut muncul dalam laporan kas atau bank.
+## Kunjungi aplikasi
 
-Ini proyek privat. Data klien dan kode sumber tidak dipublikasikan di sini. [Diskusikan proyek serupa](mailto:fantocaa17@gmail.com).
+[Buka aplikasi MTI](https://mti.tako.co.id/login). Aplikasi di-host sendiri pada server pribadi perusahaan dan memerlukan login; kode sumber bersifat privat.

@@ -1,1 +1,0 @@
-import"./i18n.D2c7p2oQ.js";

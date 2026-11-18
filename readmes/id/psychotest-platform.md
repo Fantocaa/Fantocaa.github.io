@@ -16,4 +16,4 @@ Backend Laravel menghubungkan tes, pengiriman jawaban, dan pembuatan laporan. Re
 
 Perekrut memiliki alur dari menyiapkan asesmen hingga membaca hasilnya. Pelamar mendapat jalur pengerjaan terpisah sehingga tidak perlu memasuki area administrasi.
 
-Ini proyek privat `module-psychotest`. Data pelamar, materi tes, dan kode sumber tidak dipublikasikan di sini. [Diskusikan proyek serupa](mailto:fantocaa17@gmail.com).
+Proyek privat ini di-host sendiri pada server pribadi perusahaan. Data pelamar, materi tes, dan kode sumber tidak dipublikasikan di sini. [Diskusikan proyek serupa](mailto:fantocaa17@gmail.com).

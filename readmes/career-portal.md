@@ -16,4 +16,4 @@ Laravel manages the vacancy and application data; Inertia connects it to the Rea
 
 Candidates can move from a vacancy listing to its application form, or choose the general CV route when there is no particular opening they want to apply for.
 
-This is the private `career_tako` project. Candidate records and source code are not published here. [Discuss a similar project](mailto:fantocaa17@gmail.com).
+[Visit the career portal](https://karier.tako.co.id/). This private project is self-hosted on a private company server. Candidate records and source code are not published here. [Discuss a similar project](mailto:fantocaa17@gmail.com).

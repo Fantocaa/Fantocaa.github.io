@@ -16,4 +16,4 @@ The Laravel backend connects the test, submission, and reporting workflows. Reac
 
 Recruiters have a path from preparing an assessment to reviewing its report. Applicants use a separate route that keeps the administration workspace out of their test experience.
 
-This is the private `module-psychotest` project. Applicant information, test material, and source code are not published here. [Discuss a similar project](mailto:fantocaa17@gmail.com).
+This private project is self-hosted on a private company server. Applicant information, test material, and source code are not published here. [Discuss a similar project](mailto:fantocaa17@gmail.com).

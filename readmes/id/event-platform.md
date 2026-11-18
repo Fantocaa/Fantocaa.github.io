@@ -10,10 +10,10 @@ Tantangannya adalah memisahkan pekerjaan operator platform dari pekerjaan harian
 
 Saya memisahkan data pusat untuk organisasi dan akses dari data acara serta tamu milik tiap organisasi. Subdomain menentukan konteks penyelenggara, lalu basis data PostgreSQL tersendiri menyimpan data operasionalnya. Proses pembuatan organisasi juga menyiapkan basis data, migrasi, serta peran dan menu awal agar ruang kerja langsung dapat digunakan.
 
-Laravel menangani proses penyiapan organisasi dan permintaan aplikasi; React dan Inertia menyajikan antarmukanya. Redis mendukung sesi, cache, dan pekerjaan antrean. Semua itu mengikuti keputusan yang sama: administrasi platform terpusat, pekerjaan tiap penyelenggara terpisah.
+Laravel menangani proses penyiapan organisasi dan permintaan aplikasi; React dan Inertia menyajikan antarmukanya. Proyek ini juga menggunakan Rust. Redis mendukung sesi, cache, dan pekerjaan antrean. Semua itu mengikuti keputusan yang sama: administrasi platform terpusat, pekerjaan tiap penyelenggara terpisah.
 
 ## Hasil yang dibangun
 
 Operator dapat mengelola organisasi tanpa mencampur data acaranya ke ruang administrasi bersama. Setiap penyelenggara bekerja dengan acara dan tamu miliknya melalui subdomain sendiri.
 
-Ini proyek privat. Data klien, konfigurasi internal, dan kode sumber tidak dipublikasikan di sini. [Diskusikan proyek serupa](mailto:fantocaa17@gmail.com).
+[Kunjungi Tako RSVP](https://rsvp.tako.co.id/). Proyek ini di-host sendiri pada server pribadi perusahaan. Data klien, konfigurasi internal, dan kode sumber tidak dipublikasikan di sini.

@@ -4,4 +4,5 @@
 - Existing background, cursor and sound assets came with the original project. The reference credits ATLUS for Persona imagery.
 - Course, Fingerspot and Fantoca Dev images and portrait: https://fantoca.github.io/Fantoca-Portofolio.github.io/
 - New SVG project covers and social card: original geometric illustrations created for this portfolio. They are cover illustrations, not product screenshots.
+- Logistics Monitoring dashboard and table, Trading & Finance dashboard, and portfolio design images: supplied by the portfolio owner.
 - Persona 5 soundtrack recordings: Shoji Meguro, Lyn, ATLUS / SEGA; files sourced from https://archive.org/details/2.12-ideal-and-the-real-end-version. Permission to redistribute these recordings on this public website has not been verified.

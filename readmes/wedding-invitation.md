@@ -10,7 +10,7 @@ The public invitation and the private guest list have different jobs. Guests sho
 
 I built one invitation experience that looks up a guest by an individual invitation code. That lets the page show a personalized invitation and connect its RSVP to the right record. A protected dashboard handles guest creation, edits, invitation codes, and attendance tracking. The public page and the administrative work share the same application data without sharing the same access.
 
-Next.js and React provide the invitation and dashboard; TypeScript covers the interface and server routes, with Supabase supporting the data layer. The central decision is using one maintained invitation experience with guest-specific access, rather than duplicating pages.
+Next.js and React provide the invitation and dashboard; TypeScript covers the interface and server routes, with Supabase supporting the data layer. The project also uses Rust. The central decision is using one maintained invitation experience with guest-specific access, rather than duplicating pages.
 
 ## What this delivers
 

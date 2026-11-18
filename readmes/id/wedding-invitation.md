@@ -10,7 +10,7 @@ Undangan publik dan daftar tamu privat memiliki kebutuhan berbeda. Tamu perlu me
 
 Saya membangun satu pengalaman undangan yang mencari tamu melalui kode undangan masing-masing. Dengan begitu, halaman dapat menampilkan undangan personal dan menghubungkan jawaban RSVP ke catatan tamu yang benar. Dasbor terlindungi menangani penambahan dan perubahan tamu, pengelolaan kode, serta pemantauan konfirmasi kehadiran. Halaman publik dan area admin memakai data aplikasi yang sama dengan akses yang berbeda.
 
-Next.js dan React menyajikan undangan serta dasbor; TypeScript digunakan di antarmuka dan rute server, sedangkan Supabase mendukung penyimpanan data. Keputusan utamanya adalah merawat satu pengalaman undangan dengan akses khusus tiap tamu, bukan menggandakan halaman.
+Next.js dan React menyajikan undangan serta dasbor; TypeScript digunakan di antarmuka dan rute server, sedangkan Supabase mendukung penyimpanan data. Proyek ini juga menggunakan Rust. Keputusan utamanya adalah merawat satu pengalaman undangan dengan akses khusus tiap tamu, bukan menggandakan halaman.
 
 ## Hasil yang dibangun
 

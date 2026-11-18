@@ -1,19 +1,19 @@
-# Logistics & Finance Workspace
+# Multi-Tenant Trading & Finance System
 
-For an operations team, issuing an invoice is only the start of the story. Payments may arrive later or be corrected, amounts remain receivable or payable, and the same activity has to make sense in cash and bank reports. The workspace brings those connected steps into one application.
+A multi-tenant system for managing trading operations and financial activity, from day-to-day transactions through to balance sheets and profit-and-loss reports.
 
-## The problem to solve
+## The work
 
-A list of transactions is not enough if staff cannot tell what has been paid, what is still outstanding, and how a correction affects the balance. Reports also need to remain understandable when someone changes the date range or selects a different cash or bank account.
+The system connects trading operations with financial management. I worked on invoice payment calculations, receivables and payables, settlement corrections, and cash and bank reporting. Reports include opening and running balances, date and account filters, and PDF or spreadsheet exports.
 
-## How I approached it
+The application uses Laravel, React, and TypeScript. Its multi-tenant model supports multiple organizations.
 
-I worked on the invoice payment calculations, receivables and payables, and settlement corrections alongside the reporting views. The cash and bank reports bring forward an opening balance, apply date and account filters, and show a running balance. They can also be exported to PDF or a spreadsheet when the team needs to review the figures outside the app.
+## Application dashboard
 
-Laravel handles the transaction and reporting logic; React and TypeScript provide the workspace where staff enter and inspect records. The transaction and reporting views need to describe the same underlying activity, even after a payment is corrected.
+![Trading and finance dashboard showing profit, inventory value, receivables, payables, cash and bank balances, and sales and purchase trends](/assets/projects/trading-finance-dashboard.jpg)
 
-## What this delivers
+The dashboard brings financial summaries, inventory value, and sales and purchase trends together in one view.
 
-Staff can review the same financial activity at different stages: what was invoiced, what has been settled, and how it appears in the cash or bank report.
+## Visit the application
 
-This is a private project. Client records and source code are not published here. [Discuss a similar project](mailto:fantocaa17@gmail.com).
+[Open the MTI application](https://mti.tako.co.id/login). The application is self-hosted on a private company server and requires a login; the source code is private.
